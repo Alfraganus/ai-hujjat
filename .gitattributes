@@ -1,0 +1,11 @@
+# Normalize line endings in the repository (Windows checkouts convert on the fly).
+* text=auto
+
+*.sh text eol=lf
+*.ps1 text eol=crlf
+
+# Binary files
+*.ico binary
+*.bmp binary
+*.png binary
+*.onnx binary
